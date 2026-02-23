@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* كود إخفاء علامة Made in Bolt */
+a[href*="bolt.new"] {
+  display: none !important;
+}
